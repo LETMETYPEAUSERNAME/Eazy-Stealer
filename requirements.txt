@@ -1,5 +1,4 @@
 discord_webhook
-win32crypt
 getmac
 socket
 json

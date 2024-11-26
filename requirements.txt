@@ -1,4 +1,3 @@
-webbrowser
 discord_webhook
 os
 win32crypt

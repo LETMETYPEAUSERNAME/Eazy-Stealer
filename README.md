@@ -1,6 +1,9 @@
-## Install
+## Eazy Stealer ##
+
+
+## Installation
 
 ### Requirements
 
--   [Python310 or higher](https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe)
--   [Git](https://git-scm.com/download/win)
+-   [Python310](https://www.python.org/downloads/release/python-31011/)
+-   

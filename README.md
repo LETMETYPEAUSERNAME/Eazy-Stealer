@@ -20,7 +20,7 @@ Firefox: ❌
 
 
 ### Installation
-
+------------------
 -   1: Run install.bat
 -   2: Run Built.bat
 -   3: Have fun with your pentesting!

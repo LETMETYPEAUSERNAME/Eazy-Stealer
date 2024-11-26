@@ -1,0 +1,12 @@
+webbrower
+discord_webhook
+os
+win32crypt
+getmac
+socket
+json
+sqlite3
+shutil
+base64
+winreg
+time

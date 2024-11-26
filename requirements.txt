@@ -1,11 +1,4 @@
 discord_webhook
 getmac
-socket
-json
-sqlite3
-shutil
-base64
-winreg
-time
 pyinstaller
 pycryptodome

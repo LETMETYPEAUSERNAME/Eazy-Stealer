@@ -5,7 +5,7 @@ The Eazy Stealer is one of the most high quality stealers currently on the marke
 
    Browsers
 -----------------
-Edge:    | ✅ |
+Edge:     | ✅ |
 
 Chrome:  | ✅ |
 

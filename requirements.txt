@@ -10,3 +10,4 @@ shutil
 base64
 winreg
 time
+pyinstaller

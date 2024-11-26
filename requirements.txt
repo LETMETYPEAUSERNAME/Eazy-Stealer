@@ -10,3 +10,4 @@ base64
 winreg
 time
 pyinstaller
+pycryptodome

@@ -21,9 +21,11 @@ Firefox: ❌
 ----------------
 ### Installation
 ------------------
--   1: Run install.bat
--   2: Run build.bat
--   3: The .EXE will be in the dist folder
+-   1: Download ZIP
+-   2: Extract all
+-   3: Run install.bat
+-   4: Run build.bat
+-   5: The .EXE will be in the dist folder
 -----------------
 ### Requirements
 ------------------

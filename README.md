@@ -3,17 +3,17 @@ The Eazy Stealer is one of the most high quality stealers currently on the marke
 
 # Compatability 
 
-Browsers
+   Browsers
 -----------------
-Edge:    |  ✅
+Edge:    | ✅ |
 
-Chrome:  |  ✅
+Chrome:  | ✅ |
 
-Opera:   |  ✅
+Opera:   | ✅ |
 
-OperaGX: |  ✅
+OperaGX: | ✅ |
 
-Firefox: |  ❌
+Firefox: | ❌ |
 
 
 

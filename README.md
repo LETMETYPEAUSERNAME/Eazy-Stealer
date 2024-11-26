@@ -1,7 +1,20 @@
 ## Eazy Stealer ##
-The Eazy Stealer is one of the most high quality stealers currently on the market made in python.
+The Eazy Stealer is one of the most high quality stealers currently on the market made in Python
 
-## Installation
+# Compatability 
+
+Browsers
+-------
+Edge:    |  ✅
+Chrome:  |  ✅
+Opera:   |  ✅
+OperaGX: |  ✅
+Firefox: |  ❌
+
+
+
+# Installation
+
 
 ### Requirements
 

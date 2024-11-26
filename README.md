@@ -1,5 +1,5 @@
 ## Eazy Stealer ##
-3/64 virustotal scored stealer that logs all passwords.
+The Eazy Stealer is one of the most high quality stealers currently on the market made in python.
 
 ## Installation
 

